@@ -4,8 +4,12 @@ SENSEI: "Write once, use everywhere"
 
 Catalyst: live visualzation and co-processing
 
-We present the immersive simulation software infrastructure, demonstrating the linkages between solver and co-processing tools to enable livei, reconfigerable visualization and live, reconfigurable problem definition. 
+We present the immersive simulation software infrastructure, demonstrating the linkages between solver and co-processing tools to enable live, reconfigerable visualization and live, reconfigurable problem definition. 
 
-We use the PDE Solver is the fluid solver PHASTA. The purpose of this repo is to demonstrate relationship between Solver and immersive simulation tools.  
+We use the fluid solver PHASTA. The purpose of this repo is to demonstrate relationship between Solver and immersive simulation tools.  
 
+The interaction between PDE solver and immersive simulation tools is divided into the following three directories: 
+1. IS_scripts_pde_solver - scripts in solver source
+2. IS_scripts_run_directory  - scripts in run directory
+3. IS_sensei_miniadaptor_phasta - adjustments to miniapp in SENEI source
 

@@ -1,0 +1,20 @@
+ <!-- SENSEI ConfigurableAnalysis Configuration file.
+      set enabled="1" on analyses you wish to enable -->
+<sensei>
+
+  <!-- Catalyst Analyses -->
+  <analysis type="catalyst"
+
+    association="point"
+    image-filename="pressure-%ts.png"
+    image-width="1920"
+    image-height="1080"
+    slice-normal="0,0,1"
+    enabled="0" />
+
+  <analysis type="catalyst"
+    pipeline="pythonscript"
+    filename="/users/fnewberry/PHASTA_Sensei/runs/blower_sensitivity/ensemble_500_1/paper_plots/Run-434/diffuser_pipeline.py"
+    enabled="1" />
+
+</sensei>
