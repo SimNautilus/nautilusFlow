@@ -24,7 +24,7 @@ Setup the appropriate environment, ie with python3.6 and libEnsemble. In this ca
 Record worker_list if on Cooley. \
 call calling_func.py 
 
-### Calling_func.py
+### calling_func.py
 launch libEnsemble. Specify number of workers, number of simulations and simulations executable. 
 
 ### allocation_func.py 
