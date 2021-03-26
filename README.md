@@ -19,15 +19,15 @@ Scripts necessary for the SENSEI in situ interface and Catalyst in situ infrastr
 
 Computational steering allows practitioners to define design space limits and select quantities of interest that inform ensemble simulation. 
 
-The in situ SENSEI and Catalyst content can be found [here](senseiCatalystInSitu/README.md).
+The in situ SENSEI and Catalyst links to PHASTA solver can be found [here](senseiCatalystInSitu/README.md).
 
 ## Ensemble Generation
 
-Implement libEnsemble with PHASTA!
+Implement [libEnsemble with PHASTA](ensembleGeneration)!
   
-"libEnsemble is a library to coordinate the concurrent evaluation of dyanmic     ensembles of calculations" https://libensemble.readthedocs.io/en/master/
+"libEnsemble is a library to coordinate the concurrent evaluation of dyanmic ensembles of calculations" https://libensemble.readthedocs.io/en/master/
  
-In essence: if you seek to evaluate numerous PHASTA simulations on a HPC the    n this tool is for you.
+In essence: if you seek to evaluate numerous PHASTA simulations on a HPC then this tool is for you.
 
 ## Sensitivity Analysis
 
