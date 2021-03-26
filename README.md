@@ -19,7 +19,7 @@ Scripts necessary for the SENSEI in situ interface and Catalyst in situ infrastr
 
 Computational steering allows practitioners to define design space limits and select quantities of interest that inform ensemble simulation. 
 
-The in situ SENSEI and Catalyst links to PHASTA solver can be found [here](senseiCatalystInSitu/README.md).
+The in situ SENSEI and Catalyst links to PHASTA solver can be found [here](senseiCatalystInSitu).
 
 ## Ensemble Generation
 
@@ -31,4 +31,6 @@ In essence: if you seek to evaluate numerous PHASTA simulations on a HPC then th
 
 ## Sensitivity Analysis
 
-We show use of the chaospy, an open source uncertainty quantification Python library to conduct a global sensitivity analysis. 
+We show use of chaospy, an open source uncertainty quantification Python library to conduct a global sensitivity analysis. 
+
+[Chaospy Senstivity Analysis](sensitivityAnalysis)
