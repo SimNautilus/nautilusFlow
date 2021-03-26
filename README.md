@@ -1,9 +1,9 @@
 # nautiliusFlow
 Tools to mitigate traditional workflow inefficiences 
 
-This repository serves as a demonstration of immersive simulation tools on a 2D agressive subsonic diffuser in the fluid solver PHASTA. 
+This repository serves as a demonstration of an immersive simulation software framework on a 2D agressive subsonic diffuser in the fluid solver PHASTA. 
 
-Our objective is to provide a template so that these tools may be applied in other PDE solvers, and to other problems. 
+Our objective is to provide a template so that immersive simulation tools may be applied in other PDE solvers, and to other problems. 
 
 Immersive simulation tools
 1. SENSEI in situ interface
@@ -18,6 +18,8 @@ Immersive simulation tools
 Scripts necessary for the SENSEI in situ interface and Catalyst in situ infrastructure to operate with PHASTA. Together these tools enable live, reconfigurable visualization and live, reconfigurable problem definition that promote rapid design space exploration. 
 
 Computational steering allows practitioners to define design space limits and select quantities of interest that inform ensemble simulation. 
+
+The in situ SENSEI and Catalyst content can be found [here](senseiCatalystInSitu/README.md).
 
 ## Ensemble Generation
 
