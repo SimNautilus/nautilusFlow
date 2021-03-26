@@ -17,3 +17,4 @@ Our objective with this data is to:
 * Construct a polynomial chaos (PC) expansion with minimal validation error
 * Generate PC based sobal indices to assess the relative influence of different design parameters
 
+See Jupyter notebook for chaospy demonstration
