@@ -1,0 +1,710 @@
+Sun Jan 24 00:07:03 UTC 2021
+PHASTA Git hash d8924f8cdcc859e9af0e4d860e1bfcf559c275e9
+Attempting to set ulimit from phasta exec 
+ Complete Filename: ./input.config 
+
+ Local Config: solver.inp 
+
+
+ Equation Solver Work Selector: 50 
+
+ MKL not available: ieqswork set to 50 
+Number of geombc-dat and restart-dat files to read: 0
+since zero assuming you planned to run posix 1PPF 
+ time to read geombc (seconds)   8.9099407196044922E-003
+ time to read restart (seconds)   1.8303155899047852E-002
+ Element block size =           64
+ input.f computes Rgas to be   288.29438280166437     
+ Domain size (x,y,z):     3.7305392380   1.1525249975   0.1000000000
+ Navier is set to            1
+Total number of modes = 40885
+ entering initTurb
+d2wall field found in restart.50.
+time to read d2wall (seconds) 0.000580
+
+ leaving initTurb
+ Back to MPI            1
+ Back to MPI            3
+ Back to MPI            2
+ Back to MPI            0
+ Number of global nonzeros       905036
+environment variable LES_LICENSE_SERVER not defined 
+using wesley as default 
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+Total number of loaded entities 2760.
+track is setup.
+datum is setup.
+track is setup.
+datum is setup.
+track segments are setup.
+track is setup.
+datum is setup.
+track segments are setup.
+track is setup.
+track is setup.
+datum is setup.
+track is setup.
+track segments are setup.
+track is setup.
+datum is setup.
+track segments are setup.
+track is setup.
+datum is setup.
+track segments are setup.
+track is setup.
+datum is setup.
+track segments are setup.
+track is setup.
+datum is setup.
+track segments are setup.
+datum is setup.
+track segments are setup.
+track segments are setup.
+track is setup.
+datum is setup.
+track is setup.
+datum is setup.
+track is setup.
+datum is setup.
+track segments are setup.
+datum is setup.
+track segments are setup.
+track is setup.
+datum is setup.
+track segments are setup.
+track is setup.
+datum is setup.
+track segments are setup.
+track segments are setup.
+track is setup.
+datum is setup.
+track is setup.
+datum is setup.
+track is setup.
+datum is setup.
+track segments are setup.
+track is setup.
+track is setup.
+track is setup.
+datum is setup.
+track segments are setup.
+datum is setup.
+track segments are setup.
+datum is setup.
+track segments are setup.
+track segments are setup.
+track is setup.
+datum is setup.
+track segments are setup.
+track segments are setup.
+track segments are setup.
+track is setup.
+datum is setup.
+track segments are setup.
+track is setup.
+datum is setup.
+track segments are setup.
+moved point count = 3506
+moved point count = 3506
+moved point count = 3481
+moved point count = 3514
+moved point count = 3571
+moved point count = 3530
+moved point count = 3484
+moved point count = 3586
+moved point count = 3520
+moved point count = 3506
+moved point count = 3535
+moved point count = 3589
+moved point count = 3540
+moved point count = 3540
+moved point count = 3537
+moved point count = 3516
+moved point count = 3522
+moved point count = 3505
+moved point count = 3503
+moved point count = 3569
+moved point count = 3526
+moved point count = 3529
+moved point count = 3537
+moved point count = 3506
+STATUS: [0][/projects/VisComm/fnewberr/src/sensei/sensei/ConfigurableAnalysis.cxx:624][v2.1.1-253-g4c036dc]
+STATUS: Configured CatalystAnalysisAdaptor pythonscript /lus/theta-fs0/projects/PHASTA_aesp/fnewberr/blower_sensitivity/24-1-Chef/base_dev/diffuser_pipeline.py
+ stopjob,lstep,istep          -1          50           0
+    51 1.281E+01 8.032E-03  (   0)   1.260E-01   2.389E-03  <  2378-   13|  16> [ 200 -  68]
+    51 1.438E+01 2.768E-04  ( -14)   1.203E-01   6.008E-03  <  1209-   21|  16> [ 200 - 200]
+    51 1.445E+01 7.959E-05           5.627E-02                               [    50]
+    51 1.454E+01 3.048E-06           8.231E-03                               [    60]
+             CFL Flow  Step  CFLfl_max  dt      51 2.643E+02 1.000E-04
+   sforce            0 if any handled by rank          23  on node          23
+   sforce            1 if any handled by rank          22  on node          22
+ coprocess:    9.9817037582397461E-002
+ stopjob,lstep,istep          -1          51           1
+    52 1.508E+01 1.527E-02  (   2)   1.016E-01   2.995E-03  <  2378-   13|  17> [ 200 -  53]
+    52 1.660E+01 2.872E-04  ( -14)   1.111E-01   4.148E-03  <  3072-   13|  13> [ 200 - 200]
+    52 1.667E+01 8.189E-05           5.454E-02                               [    53]
+    52 1.674E+01 2.797E-06           8.088E-03                               [    66]
+             CFL Flow  Step  CFLfl_max  dt      52 2.461E+02 1.000E-04
+ coprocess:    2.1700859069824219E-003
+ stopjob,lstep,istep          -1          52           2
+    53 1.730E+01 1.099E-02  (   1)   9.554E-02   3.916E-03  <  2291-   13|  17> [ 200 -  79]
+    53 1.880E+01 2.484E-04  ( -15)   9.828E-02   3.603E-03  <  2464-   13|  15> [ 200 - 200]
+    53 1.889E+01 8.384E-05           5.536E-02                               [    59]
+    53 1.898E+01 2.596E-06           6.281E-03                               [    62]
+             CFL Flow  Step  CFLfl_max  dt      53 2.718E+02 1.000E-04
+ coprocess:    1.4829635620117188E-003
+ stopjob,lstep,istep          -1          53           3
+    54 1.937E+01 8.986E-03  (   0)   5.366E-02   3.512E-03  <  2464-   13|  18> [ 200 -  46]
+    54 2.085E+01 2.210E-04  ( -15)   5.394E-02   1.262E-03  <  2378-   13|  17> [ 200 - 200]
+    54 2.094E+01 8.443E-05           4.980E-02                               [    58]
+    54 2.103E+01 2.315E-06           5.704E-03                               [    67]
+             CFL Flow  Step  CFLfl_max  dt      54 3.211E+02 1.000E-04
+ coprocess:    1.5480518341064453E-003
+ stopjob,lstep,istep          -1          54           4
+    55 2.141E+01 7.685E-03  (   0)   3.542E-02   2.698E-03  <  2378-   13|  18> [ 200 -  46]
+    55 2.291E+01 1.250E-04  ( -18)   3.868E-02   1.558E-03  <  3072-   13|  13> [ 200 - 200]
+    55 2.300E+01 8.438E-05           4.958E-02                               [    54]
+    55 2.310E+01 2.182E-06           5.822E-03                               [    67]
+             CFL Flow  Step  CFLfl_max  dt      55 2.392E+02 1.000E-04
+ coprocess:    1.4359951019287109E-003
+ stopjob,lstep,istep          -1          55           5
+    56 2.347E+01 4.873E-03  (  -2)   3.382E-02   2.044E-03  <  2291-   13|  15> [ 165 -  52]
+    56 2.494E+01 1.117E-04  ( -18)   3.353E-02   4.679E-04  <  2378-   13|  15> [ 200 - 200]
+    56 2.503E+01 8.418E-05           4.410E-02                               [    59]
+    56 2.512E+01 2.022E-06           3.826E-03                               [    60]
+             CFL Flow  Step  CFLfl_max  dt      56 2.817E+02 1.000E-04
+ coprocess:    1.4269351959228516E-003
+ stopjob,lstep,istep          -1          56           6
+    57 2.540E+01 4.140E-03  (  -2)   2.098E-02   3.033E-04  <  2290-   13|  17> [  62 -  46]
+    57 2.689E+01 1.199E-04  ( -18)   2.366E-02   8.085E-04  <  2290-   13|  17> [ 200 - 200]
+    57 2.698E+01 8.392E-05           4.366E-02                               [    55]
+    57 2.707E+01 1.878E-06           3.222E-03                               [    59]
+             CFL Flow  Step  CFLfl_max  dt      57 2.265E+02 1.000E-04
+ coprocess:    1.4629364013671875E-003
+ stopjob,lstep,istep          -1          57           7
+    58 2.733E+01 4.686E-03  (  -2)   2.156E-02   5.427E-04  <  2290-   13|  17> [  73 -  37]
+    58 2.879E+01 1.102E-04  ( -18)   3.372E-02   1.218E-03  <  2378-   13|  14> [ 200 - 200]
+    58 2.887E+01 8.378E-05           4.176E-02                               [    54]
+    58 2.896E+01 1.775E-06           3.092E-03                               [    57]
+             CFL Flow  Step  CFLfl_max  dt      58 2.514E+02 1.000E-04
+ coprocess:    2.5229454040527344E-003
+ stopjob,lstep,istep          -1          58           8
+    59 2.944E+01 2.564E-03  (  -4)   3.123E-02   5.942E-04  <  2551-   13|  15> [ 200 -  67]
+    59 3.088E+01 9.524E-05  ( -19)   3.091E-02   9.074E-04  <  3385-    3|  13> [ 200 - 200]
+    59 3.095E+01 8.285E-05           3.877E-02                               [    50]
+    59 3.104E+01 1.661E-06           2.789E-03                               [    59]
+             CFL Flow  Step  CFLfl_max  dt      59 2.624E+02 1.000E-04
+ coprocess:    1.4400482177734375E-003
+ stopjob,lstep,istep          -1          59           9
+    60 3.134E+01 3.898E-03  (  -3)   2.748E-02   9.687E-04  <  2551-   13|  17> [ 128 -  38]
+    60 3.288E+01 1.278E-04  ( -17)   3.807E-02   9.019E-04  <  2290-   13|  16> [ 200 - 200]
+    60 3.297E+01 8.187E-05           3.671E-02                               [    53]
+    60 3.310E+01 1.556E-06           2.627E-03                               [    56]
+             CFL Flow  Step  CFLfl_max  dt      60 2.580E+02 1.000E-04
+[0m[2m(  33.993s) [pvbatch.1       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40104 points, 13368 triangles[0m
+[0m[2m(  33.993s) [pvbatch.3       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40437 points, 13479 triangles[0m
+[0m[2m(  33.993s) [pvbatch.7       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40044 points, 13348 triangles[0m
+[0m[2m(  33.994s) [pvbatch.9       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40242 points, 13414 triangles[0m
+[0m[2m(  33.993s) [pvbatch.11      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40188 points, 13396 triangles[0m
+[0m[2m(  34.479s) [pvbatch.0       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40020 points, 13340 triangles[0m
+[0m[2m(  33.993s) [pvbatch.13      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39891 points, 13297 triangles[0m
+[0m[2m(  34.482s) [pvbatch.2       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40062 points, 13354 triangles[0m
+[0m[2m(  33.993s) [pvbatch.15      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40500 points, 13500 triangles[0m
+[0m[2m(  34.480s) [pvbatch.4       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40335 points, 13445 triangles[0m
+[0m[2m(  33.993s) [pvbatch.19      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40227 points, 13409 triangles[0m
+[0m[2m(  34.479s) [pvbatch.10      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40086 points, 13362 triangles[0m
+[0m[2m(  33.993s) [pvbatch.21      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39450 points, 13150 triangles[0m
+[0m[2m(  34.481s) [pvbatch.12      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40392 points, 13464 triangles[0m
+[0m[2m(  33.993s) [pvbatch.23      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39984 points, 13328 triangles[0m
+[0m[2m(  34.482s) [pvbatch.16      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40320 points, 13440 triangles[0m
+[0m[2m(  33.994s) [pvbatch.5       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40458 points, 13486 triangles[0m
+[0m[2m(  34.479s) [pvbatch.18      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39897 points, 13299 triangles[0m
+[0m[2m(  34.479s) [pvbatch.20      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39876 points, 13292 triangles[0m
+[0m[2m(  34.480s) [pvbatch.22      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40515 points, 13505 triangles[0m
+[0m[2m(  34.489s) [pvbatch.8       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40035 points, 13345 triangles[0m
+[0m[2m(  34.503s) [pvbatch.14      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40302 points, 13434 triangles[0m
+[0m[2m(  34.015s) [pvbatch.17      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40332 points, 13444 triangles[0m
+[0m[2m(  34.515s) [pvbatch.6       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40095 points, 13365 triangles[0m
+ coprocess:   0.37417292594909668     
+ stopjob,lstep,istep          -1          60          10
+    61 3.386E+01 4.120E-03  (  -2)   2.542E-02   7.104E-04  <  2256-   13|  15> [ 133 -  52]
+    61 3.548E+01 1.118E-04  ( -18)   3.545E-02   8.994E-04  <  2290-   13|  15> [ 200 - 200]
+    61 3.557E+01 8.093E-05           3.508E-02                               [    56]
+    61 3.567E+01 1.500E-06           2.467E-03                               [    63]
+             CFL Flow  Step  CFLfl_max  dt      61 2.747E+02 1.000E-04
+ coprocess:    1.5089511871337891E-003
+ stopjob,lstep,istep          -1          61          11
+    62 3.602E+01 5.352E-03  (  -1)   2.535E-02   9.599E-04  <  2290-   13|  14> [ 146 -  46]
+    62 3.764E+01 7.643E-05  ( -20)   3.079E-02   4.859E-04  <  2291-   13|  14> [ 200 - 200]
+    62 3.772E+01 8.049E-05           3.229E-02                               [    54]
+    62 3.781E+01 1.431E-06           2.334E-03                               [    61]
+             CFL Flow  Step  CFLfl_max  dt      62 3.092E+02 1.000E-04
+ coprocess:    2.3159980773925781E-003
+ stopjob,lstep,istep          -1          62          12
+    63 3.814E+01 3.905E-03  (  -3)   2.342E-02   5.190E-04  <  2378-   13|  17> [ 125 -  43]
+    63 3.976E+01 9.435E-05  ( -19)   2.967E-02   4.414E-04  <  2464-   13|  16> [ 200 - 200]
+    63 3.984E+01 8.035E-05           2.990E-02                               [    53]
+    63 3.992E+01 1.396E-06           2.092E-03                               [    60]
+             CFL Flow  Step  CFLfl_max  dt      63 2.668E+02 1.000E-04
+ coprocess:    1.5051364898681641E-003
+ stopjob,lstep,istep          -1          63          13
+    64 4.019E+01 3.263E-03  (  -3)   2.104E-02   3.178E-04  <  2378-   13|  18> [  52 -  41]
+    64 4.181E+01 7.637E-05  ( -20)   2.558E-02   4.083E-04  <  2924-    5|  13> [ 200 - 200]
+    64 4.188E+01 7.983E-05           2.882E-02                               [    50]
+    64 4.197E+01 1.364E-06           2.225E-03                               [    63]
+             CFL Flow  Step  CFLfl_max  dt      64 2.574E+02 1.000E-04
+ coprocess:    1.4529228210449219E-003
+ stopjob,lstep,istep          -1          64          14
+    65 4.225E+01 2.647E-03  (  -4)   1.631E-02   4.562E-04  <  2378-   13|  16> [ 107 -  35]
+    65 4.386E+01 1.096E-04  ( -18)   2.846E-02   6.430E-04  <  2257-   13|  14> [ 200 - 200]
+    65 4.394E+01 7.918E-05           2.833E-02                               [    54]
+    65 4.402E+01 1.340E-06           2.071E-03                               [    62]
+             CFL Flow  Step  CFLfl_max  dt      65 2.930E+02 1.000E-04
+ coprocess:    1.4688968658447266E-003
+ stopjob,lstep,istep          -1          65          15
+    66 4.425E+01 4.861E-03  (  -2)   1.539E-02   6.508E-04  <  2256-   13|  14> [  87 -  24]
+    66 4.591E+01 7.308E-05  ( -20)   2.173E-02   5.493E-04  <  2378-   13|  14> [ 200 - 200]
+    66 4.599E+01 7.879E-05           2.801E-02                               [    54]
+    66 4.607E+01 1.326E-06           2.069E-03                               [    64]
+             CFL Flow  Step  CFLfl_max  dt      66 2.197E+02 1.000E-04
+ coprocess:    1.4500617980957031E-003
+ stopjob,lstep,istep          -1          66          16
+    67 4.704E+01 3.084E-03  (  -4)   1.409E-02   4.247E-04  <  3072-   13|  14> [ 152 -  33]
+    67 4.868E+01 6.619E-05  ( -20)   2.529E-02   8.490E-04  <  3426-   13|  14> [ 200 - 200]
+    67 4.876E+01 7.840E-05           2.698E-02                               [    53]
+    67 4.884E+01 1.282E-06           1.983E-03                               [    60]
+             CFL Flow  Step  CFLfl_max  dt      67 2.523E+02 1.000E-04
+ coprocess:    1.4491081237792969E-003
+ stopjob,lstep,istep          -1          67          17
+    68 5.008E+01 1.861E-03  (  -6)   2.647E-02   1.221E-03  <  2290-   13|  17> [ 200 -  60]
+    68 5.182E+01 7.454E-05  ( -20)   3.734E-02   1.161E-03  <  3072-   13|  13> [ 200 - 200]
+    68 5.188E+01 7.761E-05           2.838E-02                               [    47]
+    68 5.196E+01 1.258E-06           2.291E-03                               [    58]
+             CFL Flow  Step  CFLfl_max  dt      68 2.197E+02 1.000E-04
+ coprocess:    1.6658306121826172E-003
+ stopjob,lstep,istep          -1          68          18
+    69 5.250E+01 3.768E-03  (  -3)   2.167E-02   2.031E-03  <  2256-   13|  14> [ 112 -  30]
+    69 5.417E+01 1.125E-04  ( -18)   2.149E-02   3.985E-04  <  2400-   13|  14> [ 200 - 197]
+    69 5.425E+01 7.696E-05           2.677E-02                               [    49]
+    69 5.433E+01 1.192E-06           1.892E-03                               [    56]
+             CFL Flow  Step  CFLfl_max  dt      69 1.317E+02 1.000E-04
+ coprocess:    2.3109912872314453E-003
+ stopjob,lstep,istep          -1          69          19
+    70 5.455E+01 2.347E-03  (  -5)   1.466E-02   5.864E-04  <  2290-   13|  15> [  51 -  24]
+    70 5.625E+01 8.039E-05  ( -19)   1.354E-02   1.119E-04  <  2290-   13|  13> [ 200 - 200]
+    70 5.632E+01 7.661E-05           2.525E-02                               [    47]
+    70 5.640E+01 1.140E-06           1.653E-03                               [    56]
+             CFL Flow  Step  CFLfl_max  dt      70 1.564E+02 1.000E-04
+[0m[2m(  57.600s) [pvbatch.0       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40020 points, 13340 triangles[0m
+[0m[2m(  57.112s) [pvbatch.1       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40104 points, 13368 triangles[0m
+[0m[2m(  57.601s) [pvbatch.2       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40062 points, 13354 triangles[0m
+[0m[2m(  57.112s) [pvbatch.3       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40437 points, 13479 triangles[0m
+[0m[2m(  57.601s) [pvbatch.4       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40335 points, 13445 triangles[0m
+[0m[2m(  57.112s) [pvbatch.5       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40458 points, 13486 triangles[0m
+[0m[2m(  57.601s) [pvbatch.6       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40095 points, 13365 triangles[0m
+[0m[2m(  57.112s) [pvbatch.7       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40044 points, 13348 triangles[0m
+[0m[2m(  57.600s) [pvbatch.8       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40035 points, 13345 triangles[0m
+[0m[2m(  57.112s) [pvbatch.9       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40242 points, 13414 triangles[0m
+[0m[2m(  57.601s) [pvbatch.10      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40086 points, 13362 triangles[0m
+[0m[2m(  57.112s) [pvbatch.13      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39891 points, 13297 triangles[0m
+[0m[2m(  57.601s) [pvbatch.12      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40392 points, 13464 triangles[0m
+[0m[2m(  57.112s) [pvbatch.15      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40500 points, 13500 triangles[0m
+[0m[2m(  57.601s) [pvbatch.14      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40302 points, 13434 triangles[0m
+[0m[2m(  57.112s) [pvbatch.17      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40332 points, 13444 triangles[0m
+[0m[2m(  57.600s) [pvbatch.18      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39897 points, 13299 triangles[0m
+[0m[2m(  57.112s) [pvbatch.19      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40227 points, 13409 triangles[0m
+[0m[2m(  57.600s) [pvbatch.20      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39876 points, 13292 triangles[0m
+[0m[2m(  57.112s) [pvbatch.21      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39450 points, 13150 triangles[0m
+[0m[2m(  57.601s) [pvbatch.22      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40515 points, 13505 triangles[0m
+[0m[2m(  57.112s) [pvbatch.23      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39984 points, 13328 triangles[0m
+[0m[2m(  57.601s) [pvbatch.16      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40320 points, 13440 triangles[0m
+[0m[2m(  57.115s) [pvbatch.11      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40188 points, 13396 triangles[0m
+ coprocess:    6.5032958984375000E-002
+ stopjob,lstep,istep          -1          70          20
+    71 5.664E+01 1.412E-03  (  -7)   1.008E-02   1.465E-04  <  2378-   13|  16> [  15 -  21]
+    71 5.832E+01 6.677E-05  ( -20)   1.196E-02   1.916E-04  <  2813-    5|  13> [ 200 - 200]
+    71 5.839E+01 7.654E-05           2.451E-02                               [    46]
+    71 5.848E+01 1.097E-06           1.414E-03                               [    55]
+             CFL Flow  Step  CFLfl_max  dt      71 1.606E+02 1.000E-04
+ coprocess:    1.7561912536621094E-003
+ stopjob,lstep,istep          -1          71          21
+    72 5.864E+01 1.718E-03  (  -6)   8.874E-03   1.029E-04  <  2290-   13|  16> [  19 -  17]
+    72 6.032E+01 6.763E-05  ( -20)   1.296E-02   2.160E-04  <  2290-   13|  15> [ 200 - 200]
+    72 6.039E+01 7.667E-05           2.390E-02                               [    42]
+    72 6.048E+01 1.068E-06           1.295E-03                               [    52]
+             CFL Flow  Step  CFLfl_max  dt      72 1.770E+02 1.000E-04
+ coprocess:    1.5270709991455078E-003
+ stopjob,lstep,istep          -1          72          22
+    73 6.064E+01 1.982E-03  (  -6)   8.092E-03   7.064E-05  <  2290-   13|  16> [  11 -  18]
+    73 6.242E+01 8.656E-05  ( -19)   1.658E-02   6.162E-04  <  2290-   13|  16> [ 200 - 200]
+    73 6.251E+01 7.695E-05           2.311E-02                               [    41]
+    73 6.259E+01 1.047E-06           1.216E-03                               [    53]
+             CFL Flow  Step  CFLfl_max  dt      73 1.800E+02 1.000E-04
+ coprocess:    1.4789104461669922E-003
+ stopjob,lstep,istep          -1          73          23
+    74 6.279E+01 1.629E-03  (  -6)   1.020E-02   1.926E-04  <  2642-   13|  15> [  29 -  21]
+    74 6.479E+01 7.430E-05  ( -20)   2.538E-02   1.082E-03  <  2290-   13|  15> [ 200 - 200]
+    74 6.486E+01 7.733E-05           2.272E-02                               [    41]
+    74 6.495E+01 1.034E-06           1.172E-03                               [    51]
+             CFL Flow  Step  CFLfl_max  dt      74 1.969E+02 1.000E-04
+ coprocess:    1.8100738525390625E-003
+ stopjob,lstep,istep          -1          74          24
+    75 6.554E+01 1.774E-03  (  -6)   3.002E-02   1.151E-03  <  2642-   13|  17> [ 200 -  67]
+    75 6.738E+01 5.674E-05  ( -21)   3.237E-02   3.060E-03  <  2726-    5|  13> [ 200 - 200]
+    75 6.746E+01 7.725E-05           2.337E-02                               [    42]
+    75 6.755E+01 1.015E-06           1.387E-03                               [    54]
+             CFL Flow  Step  CFLfl_max  dt      75 1.883E+02 1.000E-04
+ coprocess:    1.4619827270507812E-003
+ stopjob,lstep,istep          -1          75          25
+    76 6.784E+01 4.850E-03  (  -2)   1.871E-02   2.422E-03  <  2290-   13|  15> [ 142 -  20]
+    76 6.987E+01 1.522E-04  ( -17)   2.199E-02   1.612E-03  <  2378-   13|  16> [ 200 - 200]
+    76 6.995E+01 7.763E-05           2.239E-02                               [    43]
+    76 7.004E+01 1.000E-06           1.381E-03                               [    54]
+             CFL Flow  Step  CFLfl_max  dt      76 1.603E+02 1.000E-04
+ coprocess:    1.4498233795166016E-003
+ stopjob,lstep,istep          -1          76          26
+    77 7.034E+01 2.766E-03  (  -4)   1.367E-02   1.745E-03  <  2378-   13|  15> [  94 -  22]
+    77 7.235E+01 6.819E-05  ( -20)   2.322E-02   4.424E-04  <  3426-   13|  13> [ 200 - 200]
+    77 7.242E+01 7.795E-05           2.140E-02                               [    44]
+    77 7.251E+01 9.845E-07           1.119E-03                               [    55]
+             CFL Flow  Step  CFLfl_max  dt      77 1.542E+02 1.000E-04
+ coprocess:    1.4791488647460938E-003
+ stopjob,lstep,istep          -1          77          27
+    78 7.281E+01 2.193E-03  (  -5)   1.228E-02   4.114E-04  <  2290-   13|  16> [  21 -  22]
+    78 7.464E+01 6.988E-05  ( -20)   1.743E-02   2.273E-04  <  3072-   13|  14> [ 200 - 200]
+    78 7.473E+01 7.801E-05           2.071E-02                               [    44]
+    78 7.482E+01 9.660E-07           1.112E-03                               [    55]
+             CFL Flow  Step  CFLfl_max  dt      78 1.746E+02 1.000E-04
+ coprocess:    1.4889240264892578E-003
+ stopjob,lstep,istep          -1          78          28
+    79 7.500E+01 1.750E-03  (  -6)   1.077E-02   1.719E-04  <  2257-   13|  14> [  14 -  23]
+    79 7.655E+01 5.009E-05  ( -22)   1.760E-02   5.437E-04  <  2290-   13|  16> [ 200 - 200]
+    79 7.663E+01 7.793E-05           1.951E-02                               [    46]
+    79 7.672E+01 9.358E-07           9.365E-04                               [    54]
+             CFL Flow  Step  CFLfl_max  dt      79 1.812E+02 1.000E-04
+ coprocess:    2.3410320281982422E-003
+ stopjob,lstep,istep          -1          79          29
+    80 7.690E+01 1.066E-03  (  -8)   9.215E-03   1.321E-04  <  2291-   13|  16> [  22 -  26]
+    80 7.848E+01 4.748E-05  ( -22)   1.315E-02   3.700E-04  <  2344-   13|  14> [ 200 - 200]
+    80 7.855E+01 7.786E-05           1.939E-02                               [    43]
+    80 7.863E+01 9.143E-07           9.578E-04                               [    51]
+             CFL Flow  Step  CFLfl_max  dt      80 1.673E+02 1.000E-04
+[0m[2m(  79.827s) [pvbatch.0       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40020 points, 13340 triangles[0m
+[0m[2m(  79.339s) [pvbatch.1       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40104 points, 13368 triangles[0m
+[0m[2m(  79.827s) [pvbatch.2       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40062 points, 13354 triangles[0m
+[0m[2m(  79.339s) [pvbatch.3       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40437 points, 13479 triangles[0m
+[0m[2m(  79.827s) [pvbatch.4       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40335 points, 13445 triangles[0m
+[0m[2m(  79.339s) [pvbatch.5       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40458 points, 13486 triangles[0m
+[0m[2m(  79.827s) [pvbatch.10      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40086 points, 13362 triangles[0m
+[0m[2m(  79.339s) [pvbatch.7       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40044 points, 13348 triangles[0m
+[0m[2m(  79.827s) [pvbatch.12      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40392 points, 13464 triangles[0m
+[0m[2m(  79.339s) [pvbatch.9       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40242 points, 13414 triangles[0m
+[0m[2m(  79.827s) [pvbatch.22      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40515 points, 13505 triangles[0m
+[0m[2m(  79.339s) [pvbatch.13      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39891 points, 13297 triangles[0m
+[0m[2m(  79.828s) [pvbatch.18      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39897 points, 13299 triangles[0m
+[0m[2m(  79.339s) [pvbatch.15      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40500 points, 13500 triangles[0m
+[0m[2m(  79.830s) [pvbatch.8       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40035 points, 13345 triangles[0m
+[0m[2m(  79.339s) [pvbatch.17      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40332 points, 13444 triangles[0m
+[0m[2m(  79.829s) [pvbatch.16      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40320 points, 13440 triangles[0m
+[0m[2m(  79.339s) [pvbatch.19      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40227 points, 13409 triangles[0m
+[0m[2m(  79.830s) [pvbatch.14      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40302 points, 13434 triangles[0m
+[0m[2m(  79.339s) [pvbatch.21      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39450 points, 13150 triangles[0m
+[0m[2m(  79.830s) [pvbatch.20      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39876 points, 13292 triangles[0m
+[0m[2m(  79.340s) [pvbatch.23      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39984 points, 13328 triangles[0m
+[0m[2m(  79.832s) [pvbatch.6       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40095 points, 13365 triangles[0m
+[0m[2m(  79.341s) [pvbatch.11      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40188 points, 13396 triangles[0m
+ coprocess:    6.4471006393432617E-002
+ stopjob,lstep,istep          -1          80          30
+    81 7.885E+01 1.331E-03  (  -7)   8.132E-03   1.783E-04  <  2378-   13|  15> [  21 -  18]
+    81 8.038E+01 8.004E-05  ( -20)   1.296E-02   3.939E-04  <  2464-   13|  14> [ 200 - 200]
+    81 8.046E+01 7.786E-05           1.880E-02                               [    46]
+    81 8.054E+01 8.966E-07           8.841E-04                               [    49]
+             CFL Flow  Step  CFLfl_max  dt      81 1.424E+02 1.000E-04
+ coprocess:    1.4789104461669922E-003
+ stopjob,lstep,istep          -1          81          31
+    82 8.068E+01 1.729E-03  (  -6)   6.153E-03   1.015E-04  <  2344-   13|  14> [  10 -  15]
+    82 8.222E+01 8.687E-05  ( -19)   9.548E-03   1.538E-04  <  2290-   13|  16> [ 200 - 200]
+    82 8.229E+01 7.792E-05           1.863E-02                               [    45]
+    82 8.238E+01 8.805E-07           8.822E-04                               [    51]
+             CFL Flow  Step  CFLfl_max  dt      82 1.529E+02 1.000E-04
+ coprocess:    1.4591217041015625E-003
+ stopjob,lstep,istep          -1          82          32
+    83 8.252E+01 1.620E-03  (  -6)   5.525E-03   1.176E-04  <  2256-   13|  14> [  11 -  15]
+    83 8.405E+01 8.699E-05  ( -19)   8.520E-03   2.121E-04  <  2551-   13|  14> [ 200 - 200]
+    83 8.412E+01 7.808E-05           1.804E-02                               [    46]
+    83 8.420E+01 8.669E-07           7.892E-04                               [    51]
+             CFL Flow  Step  CFLfl_max  dt      83 1.477E+02 1.000E-04
+ coprocess:    1.4760494232177734E-003
+ stopjob,lstep,istep          -1          83          33
+    84 8.433E+01 1.123E-03  (  -8)   4.926E-03   6.461E-05  <  2290-   13|  16> [  10 -  14]
+    84 8.555E+01 7.280E-05  ( -20)   6.906E-03   1.572E-04  <  2290-   13|  15> [ 161 - 172]
+    84 8.562E+01 7.829E-05           1.764E-02                               [    40]
+    84 8.570E+01 8.551E-07           7.242E-04                               [    47]
+             CFL Flow  Step  CFLfl_max  dt      84 1.539E+02 1.000E-04
+ coprocess:    1.4510154724121094E-003
+ stopjob,lstep,istep          -1          84          34
+    85 8.583E+01 7.189E-04  ( -10)   4.094E-03   4.195E-05  <  2290-   13|  16> [  10 -  12]
+    85 8.673E+01 5.869E-05  ( -21)   5.635E-03   3.304E-05  <  3072-   13|  14> [ 101 - 140]
+    85 8.680E+01 7.857E-05           1.737E-02                               [    41]
+    85 8.688E+01 8.464E-07           7.220E-04                               [    48]
+             CFL Flow  Step  CFLfl_max  dt      85 1.618E+02 1.000E-04
+ coprocess:    1.4848709106445312E-003
+ stopjob,lstep,istep          -1          85          35
+    86 8.701E+01 7.111E-04  ( -10)   3.780E-03   5.189E-05  <  2290-   13|  14> [  12 -  12]
+    86 8.825E+01 7.569E-05  ( -20)   6.371E-03   7.516E-05  <  2257-   13|  13> [ 200 - 171]
+    86 8.832E+01 7.889E-05           1.702E-02                               [    44]
+    86 8.839E+01 8.374E-07           7.100E-04                               [    50]
+             CFL Flow  Step  CFLfl_max  dt      86 1.551E+02 1.000E-04
+ coprocess:    1.4929771423339844E-003
+ stopjob,lstep,istep          -1          86          36
+    87 8.853E+01 5.789E-04  ( -11)   3.542E-03   2.163E-05  <  2726-    5|  14> [  13 -  12]
+    87 8.956E+01 5.385E-05  ( -21)   5.082E-03   1.078E-04  <  2291-   13|  13> [ 112 - 154]
+    87 8.964E+01 7.922E-05           1.637E-02                               [    43]
+    87 8.972E+01 8.269E-07           6.706E-04                               [    50]
+             CFL Flow  Step  CFLfl_max  dt      87 1.641E+02 1.000E-04
+ coprocess:    1.4650821685791016E-003
+ stopjob,lstep,istep          -1          87          37
+    88 8.986E+01 5.094E-04  ( -11)   3.497E-03   3.211E-05  <  2726-    5|  14> [  13 -  12]
+    88 9.137E+01 4.127E-05  ( -22)   6.779E-03   1.955E-04  <  2378-   13|  14> [ 200 - 199]
+    88 9.144E+01 7.960E-05           1.607E-02                               [    44]
+    88 9.152E+01 8.208E-07           6.582E-04                               [    49]
+             CFL Flow  Step  CFLfl_max  dt      88 1.613E+02 1.000E-04
+ coprocess:    1.4657974243164062E-003
+ stopjob,lstep,istep          -1          88          38
+    89 9.166E+01 6.585E-04  ( -10)   3.517E-03   6.987E-05  <  2464-   13|  14> [  15 -  12]
+    89 9.318E+01 7.298E-05  ( -20)   8.469E-03   3.700E-04  <  2290-   13|  16> [ 200 - 200]
+    89 9.326E+01 8.001E-05           1.567E-02                               [    44]
+    89 9.334E+01 8.114E-07           6.140E-04                               [    49]
+             CFL Flow  Step  CFLfl_max  dt      89 1.442E+02 1.000E-04
+ coprocess:    1.4901161193847656E-003
+ stopjob,lstep,istep          -1          89          39
+    90 9.348E+01 6.751E-04  ( -10)   4.157E-03   9.261E-05  <  2344-   13|  15> [  18 -  13]
+    90 9.501E+01 5.252E-05  ( -21)   7.887E-03   1.869E-04  <  2291-   13|  15> [ 200 - 200]
+    90 9.508E+01 8.035E-05           1.557E-02                               [    44]
+    90 9.516E+01 8.044E-07           6.064E-04                               [    48]
+             CFL Flow  Step  CFLfl_max  dt      90 1.701E+02 1.000E-04
+[0m[2m(  95.873s) [pvbatch.5       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40458 points, 13486 triangles[0m
+[0m[2m(  96.363s) [pvbatch.0       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40020 points, 13340 triangles[0m
+[0m[2m(  95.874s) [pvbatch.11      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40188 points, 13396 triangles[0m
+[0m[2m(  96.362s) [pvbatch.2       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40062 points, 13354 triangles[0m
+[0m[2m(  95.874s) [pvbatch.13      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39891 points, 13297 triangles[0m
+[0m[2m(  96.362s) [pvbatch.8       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40035 points, 13345 triangles[0m
+[0m[2m(  95.874s) [pvbatch.17      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40332 points, 13444 triangles[0m
+[0m[2m(  96.362s) [pvbatch.10      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40086 points, 13362 triangles[0m
+[0m[2m(  95.874s) [pvbatch.23      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39984 points, 13328 triangles[0m
+[0m[2m(  96.362s) [pvbatch.12      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40392 points, 13464 triangles[0m
+[0m[2m(  95.874s) [pvbatch.3       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40437 points, 13479 triangles[0m
+[0m[2m(  96.362s) [pvbatch.18      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39897 points, 13299 triangles[0m
+[0m[2m(  95.874s) [pvbatch.7       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40044 points, 13348 triangles[0m
+[0m[2m(  96.362s) [pvbatch.22      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40515 points, 13505 triangles[0m
+[0m[2m(  95.874s) [pvbatch.21      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39450 points, 13150 triangles[0m
+[0m[2m(  95.874s) [pvbatch.19      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40227 points, 13409 triangles[0m
+[0m[2m(  95.874s) [pvbatch.1       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40104 points, 13368 triangles[0m
+[0m[2m(  95.874s) [pvbatch.9       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40242 points, 13414 triangles[0m
+[0m[2m(  95.875s) [pvbatch.15      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40500 points, 13500 triangles[0m
+[0m[2m(  96.363s) [pvbatch.4       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40335 points, 13445 triangles[0m
+[0m[2m(  96.363s) [pvbatch.6       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40095 points, 13365 triangles[0m
+[0m[2m(  96.364s) [pvbatch.14      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40302 points, 13434 triangles[0m
+[0m[2m(  96.363s) [pvbatch.16      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40320 points, 13440 triangles[0m
+[0m[2m(  96.366s) [pvbatch.20      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39876 points, 13292 triangles[0m
+ coprocess:    6.7073106765747070E-002
+ stopjob,lstep,istep          -1          90          40
+    91 9.537E+01 7.303E-04  ( -10)   3.625E-03   1.413E-04  <  2344-   13|  14> [  17 -  13]
+    91 9.691E+01 6.368E-05  ( -21)   6.665E-03   3.694E-04  <  2378-   13|  14> [ 200 - 200]
+    91 9.697E+01 8.067E-05           1.510E-02                               [    44]
+    91 9.705E+01 7.972E-07           5.831E-04                               [    49]
+             CFL Flow  Step  CFLfl_max  dt      91 1.702E+02 1.000E-04
+ coprocess:    1.5039443969726562E-003
+ stopjob,lstep,istep          -1          91          41
+    92 9.719E+01 1.005E-03  (  -9)   4.285E-03   9.851E-05  <  2344-   13|  14> [  18 -  13]
+    92 9.871E+01 5.305E-05  ( -21)   6.612E-03   4.660E-04  <  2291-   13|  14> [ 200 - 200]
+    92 9.879E+01 8.091E-05           1.489E-02                               [    45]
+    92 9.888E+01 7.882E-07           5.835E-04                               [    49]
+             CFL Flow  Step  CFLfl_max  dt      92 1.581E+02 1.000E-04
+ coprocess:    1.4610290527343750E-003
+ stopjob,lstep,istep          -1          92          42
+    93 9.905E+01 8.140E-04  (  -9)   5.108E-03   1.810E-04  <  2642-   13|  14> [  54 -  14]
+    93 1.006E+02 5.724E-05  ( -21)   1.276E-02   9.214E-04  <  3072-   13|  13> [ 200 - 200]
+    93 1.006E+02 8.110E-05           1.497E-02                               [    44]
+    93 1.007E+02 7.874E-07           6.230E-04                               [    48]
+             CFL Flow  Step  CFLfl_max  dt      93 1.628E+02 1.000E-04
+ coprocess:    1.4951229095458984E-003
+ stopjob,lstep,istep          -1          93          43
+    94 1.010E+02 7.325E-04  ( -10)   7.464E-03   5.119E-04  <  2642-   13|  15> [ 137 -  20]
+    94 1.025E+02 8.754E-05  ( -19)   1.331E-02   1.361E-03  <  2290-   13|  14> [ 200 - 200]
+    94 1.026E+02 8.128E-05           1.556E-02                               [    42]
+    94 1.027E+02 7.773E-07           7.310E-04                               [    49]
+             CFL Flow  Step  CFLfl_max  dt      94 1.393E+02 1.000E-04
+ coprocess:    1.4958381652832031E-003
+ stopjob,lstep,istep          -1          94          44
+    95 1.028E+02 1.602E-03  (  -7)   6.640E-03   7.266E-04  <  2344-   13|  14> [  70 -  14]
+    95 1.044E+02 5.800E-05  ( -21)   1.014E-02   4.536E-04  <  2344-   13|  15> [ 200 - 200]
+    95 1.044E+02 8.153E-05           1.520E-02                               [    44]
+    95 1.045E+02 7.706E-07           6.811E-04                               [    51]
+             CFL Flow  Step  CFLfl_max  dt      95 1.271E+02 1.000E-04
+ coprocess:    1.4960765838623047E-003
+ stopjob,lstep,istep          -1          95          45
+    96 1.047E+02 1.019E-03  (  -8)   5.749E-03   8.252E-04  <  2344-   13|  14> [  57 -  14]
+    96 1.062E+02 5.082E-05  ( -21)   1.067E-02   2.621E-04  <  2642-   13|  15> [ 200 - 200]
+    96 1.063E+02 8.178E-05           1.489E-02                               [    45]
+    96 1.064E+02 7.633E-07           6.642E-04                               [    50]
+             CFL Flow  Step  CFLfl_max  dt      96 1.206E+02 1.000E-04
+ coprocess:    2.3398399353027344E-003
+ stopjob,lstep,istep          -1          96          46
+    97 1.065E+02 1.247E-03  (  -8)   5.705E-03   2.007E-04  <  2290-   13|  15> [  26 -  14]
+    97 1.081E+02 6.547E-05  ( -20)   8.382E-03   1.366E-04  <  2344-   13|  15> [ 200 - 200]
+    97 1.082E+02 8.208E-05           1.470E-02                               [    45]
+    97 1.082E+02 7.589E-07           6.218E-04                               [    48]
+             CFL Flow  Step  CFLfl_max  dt      97 1.294E+02 1.000E-04
+ coprocess:    1.5799999237060547E-003
+ stopjob,lstep,istep          -1          97          47
+    98 1.084E+02 1.110E-03  (  -8)   5.150E-03   1.071E-04  <  2290-   13|  15> [  18 -  12]
+    98 1.098E+02 7.856E-05  ( -20)   8.058E-03   1.456E-04  <  2290-   13|  16> [ 200 - 187]
+    98 1.099E+02 8.245E-05           1.464E-02                               [    43]
+    98 1.099E+02 7.633E-07           6.344E-04                               [    47]
+             CFL Flow  Step  CFLfl_max  dt      98 1.242E+02 1.000E-04
+ coprocess:    1.4760494232177734E-003
+ stopjob,lstep,istep          -1          98          48
+    99 1.101E+02 9.323E-04  (  -9)   5.312E-03   8.776E-05  <  2344-   13|  15> [  22 -  12]
+    99 1.116E+02 8.431E-05  ( -19)   9.775E-03   1.380E-04  <  3426-   13|  14> [ 200 - 200]
+    99 1.117E+02 8.286E-05           1.458E-02                               [    42]
+    99 1.118E+02 7.591E-07           6.001E-04                               [    44]
+             CFL Flow  Step  CFLfl_max  dt      99 1.092E+02 1.000E-04
+ coprocess:    1.4758110046386719E-003
+ stopjob,lstep,istep          -1          99          49
+   100 1.119E+02 5.708E-04  ( -11)   5.476E-03   1.052E-04  <  2549-    5|  14> [  29 -  12]
+   100 1.135E+02 5.621E-05  ( -21)   9.522E-03   2.324E-04  <  2464-   13|  14> [ 200 - 200]
+   100 1.136E+02 8.312E-05           1.456E-02                               [    39]
+   100 1.137E+02 7.549E-07           5.621E-04                               [    44]
+             CFL Flow  Step  CFLfl_max  dt     100 1.188E+02 1.000E-04
+[0m[2m( 114.854s) [pvbatch.14      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40302 points, 13434 triangles[0m
+[0m[2m( 114.854s) [pvbatch.16      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40320 points, 13440 triangles[0m
+[0m[2m( 114.853s) [pvbatch.18      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39897 points, 13299 triangles[0m
+[0m[2m( 114.854s) [pvbatch.22      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40515 points, 13505 triangles[0m
+[0m[2m( 114.854s) [pvbatch.0       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40020 points, 13340 triangles[0m
+[0m[2m( 114.854s) [pvbatch.2       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40062 points, 13354 triangles[0m
+[0m[2m( 114.854s) [pvbatch.4       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40335 points, 13445 triangles[0m
+[0m[2m( 114.854s) [pvbatch.8       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40035 points, 13345 triangles[0m
+[0m[2m( 114.854s) [pvbatch.10      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40086 points, 13362 triangles[0m
+[0m[2m( 114.854s) [pvbatch.12      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40392 points, 13464 triangles[0m
+[0m[2m( 114.365s) [pvbatch.1       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40104 points, 13368 triangles[0m
+[0m[2m( 114.366s) [pvbatch.3       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40437 points, 13479 triangles[0m
+[0m[2m( 114.366s) [pvbatch.5       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40458 points, 13486 triangles[0m
+[0m[2m( 114.366s) [pvbatch.7       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40044 points, 13348 triangles[0m
+[0m[2m( 114.365s) [pvbatch.9       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40242 points, 13414 triangles[0m
+[0m[2m( 114.366s) [pvbatch.11      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40188 points, 13396 triangles[0m
+[0m[2m( 114.365s) [pvbatch.13      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39891 points, 13297 triangles[0m
+[0m[2m( 114.365s) [pvbatch.15      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40500 points, 13500 triangles[0m
+[0m[2m( 114.365s) [pvbatch.17      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40332 points, 13444 triangles[0m
+[0m[2m( 114.366s) [pvbatch.19      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40227 points, 13409 triangles[0m
+[0m[2m( 114.365s) [pvbatch.21      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39450 points, 13150 triangles[0m
+[0m[2m( 114.365s) [pvbatch.23      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39984 points, 13328 triangles[0m
+[0m[2m( 114.856s) [pvbatch.6       ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 40095 points, 13365 triangles[0m
+[0m[2m( 114.855s) [pvbatch.20      ]vtk3DLinearGridPlaneCut:950   INFO| [0mCreated: 39876 points, 13292 triangles[0m
+ coprocess:    6.5283060073852539E-002
+Number of fields to write in restart files: 8
+time to write restart inside call restar (seconds) 0.002499
+ Time to write initial restart    3.2302856445312500E-002
+
+The 4/8 th field to be written is 'pressure projection vectors'
+
+The 5/8 th field to be written is 'projection vectors'
+ call saveLesRestart for projection andpressure projection vectors   5.4383277893066406E-004
+
+The 6/8 th field to be written is 'errors'
+ Time to write the error fields to the disks   3.3211708068847656E-004
+
+The 7/8 th field to be written is 'ybar'
+ Time to write ybar to the disks =    3.7813186645507812E-004
+
+The 8/8 th field to be written is 'dwal'
+Last field 8 ! 
+Last field 'dwal' finished! 
+
+ Time to write dwal to the disks =    6.9890022277832031E-003
+ Time to write restart+dwal+ybar =    3.9669990539550781E-002
+ T(core) cpu =    101.95310091972351     
+ (Elm. form.   8.2693200111389160      ,Lin. alg. sol.   82.510149955749512      )
+ (Elm. form. Scal.   5.2254161834716797      ,Lin. alg. sol. Scal.   2.7987627983093262      )
+ 
+Elm. form. : min [22,8.25199], max[20,8.33528] and avg[.,8.30118] (rms=0.02867)
+Lin. alg. sol : min [3,82.49017], max[0,82.51015] and avg[.,82.50149] (rms=0.00578)
+Elm. form. Scal. : min [5,5.22230], max[20,5.24279] and avg[.,5.23374] (rms=0.00753)
+Lin. alg. sol Scal. : min [16,2.79870], max[17,2.80180] and avg[.,2.80030] (rms=0.00088)
+
+nshg    : min [1,3481], max[16,3589] and avg[.,3527] (rms=27)
+numel   : min [21,9860], max[22,10129] and avg[.,10039] (rms=61)
+numelb  : min [11,0], max[19,239] and avg[.,121] (rms=52)
+nnz_tot : min [21,37320], max[5,38156] and avg[.,37709] (rms=227)
+
+iISend : min [19,64340], max[16,513920] and avg[.,246253] (rms=115291)
+iIRecv : min [19,64140], max[16,513920] and avg[.,246253] (rms=115337)
+iWtAll : min [0,128480], max[0,128480] and avg[.,128480] (rms=0)
+iAllR  : min [0,80247], max[0,80247] and avg[.,80247] (rms=0)
+rISend : min [19,0.37317], max[16,1.71938] and avg[.,1.01811] (rms=0.34280)
+rIRecv : min [20,0.03182], max[5,0.10510] and avg[.,0.06051] (rms=0.02064)
+rWtAll : min [0,0.62966], max[23,2.34717] and avg[.,1.13876] (rms=0.44002)
+rCommu : min [13,0.95027], max[23,3.02946] and avg[.,1.58912] (rms=0.47219)
+rspmvphasta : min [0,8.97054], max[5,10.02573] and avg[.,9.44813] (rms=0.31326)
+rspmvmkl : min [0,0.00000], max[0,0.00000] and avg[.,0.00000] (rms=0.00000)
+rblasphasta : min [12,19.71499], max[5,21.54290] and avg[.,20.44965] (rms=0.48526)
+rblasmkl : min [0,0.00000], max[0,0.00000] and avg[.,0.00000] (rms=0.00000)
+rspmvKG : min [0,8.97924], max[5,10.03104] and avg[.,9.45510] (rms=0.31293)
+rspmvD : min [3,0.16323], max[7,0.18457] and avg[.,0.17508] (rms=0.00608)
+rspmvG : min [2,3.92575], max[5,4.39347] and avg[.,4.05287] (rms=0.11634)
+rspmvNGt : min [12,0.02016], max[11,0.02179] and avg[.,0.02090] (rms=0.00041)
+rspmvNGtC : min [0,5.12179], max[11,5.58468] and avg[.,5.29712] (rms=0.12219)
+rspmvFull : min [0,0.09126], max[11,0.10252] and avg[.,0.09696] (rms=0.00331)
+ispmvphasta  : min [0,1], max[0,1] and avg[.,1] (rms=0)
+ispmvmkl  : min [0,0], max[0,0] and avg[.,0] (rms=0)
+iblasphasta  : min [0,1523868], max[0,1523868] and avg[.,1523868] (rms=0)
+iblasmkl  : min [0,0], max[0,0] and avg[.,0] (rms=0)
+ispmvKG  : min [0,11270], max[0,11270] and avg[.,11270] (rms=0)
+ispmvD  : min [0,100], max[0,100] and avg[.,100] (rms=0)
+ispmvG  : min [0,26285], max[0,26285] and avg[.,26285] (rms=0)
+ispmvNGt  : min [0,100], max[0,100] and avg[.,100] (rms=0)
+ispmvNGtC  : min [0,26185], max[0,26185] and avg[.,26185] (rms=0)
+ispmvFull  : min [0,100], max[0,100] and avg[.,100] (rms=0)
+iblasmaxpy  : min [0,1505478], max[0,1505478] and avg[.,1505478] (rms=0)
+rblasmaxpy : min [1,19.37117], max[5,21.05631] and avg[.,19.93754] (rms=0.46569)
+rassembly : min [10,1.90195], max[14,1.95887] and avg[.,1.93442] (rms=0.01697)
+rAllR  : min [13,1.29215], max[8,1.44371] and avg[.,1.36736] (rms=0.04684)
+
+iISendScal : min [19,6475], max[16,51000] and avg[.,24437] (rms=11423)
+iIRecvScal : min [19,6275], max[16,51000] and avg[.,24437] (rms=11469)
+iWtAllScal : min [0,12750], max[0,12750] and avg[.,12750] (rms=0)
+iAllRScal : min [0,31415], max[0,31415] and avg[.,31415] (rms=0)
+rISendScal : min [19,0.02296], max[21,0.10328] and avg[.,0.06054] (rms=0.02087)
+rIRecvScal : min [19,0.00163], max[16,0.00705] and avg[.,0.00398] (rms=0.00140)
+rWtAllScal : min [2,0.03547], max[23,0.15992] and avg[.,0.07026] (rms=0.02936)
+rCommuScal : min [6,0.05997], max[23,0.19893] and avg[.,0.09728] (rms=0.03147)
+rAllRScal  : min [23,0.19985], max[8,0.25040] and avg[.,0.22500] (rms=0.02137)
+ itrdrv - done with aerodynamic forces
+ itrdrv - done with MAXSURF
+ itrdrv - done - BACK TO process.f
+ process - before closing iecho
+ process - after closing iecho
+phasta.cc - last call before finalize!
+Sun Jan 24 00:09:00 UTC 2021

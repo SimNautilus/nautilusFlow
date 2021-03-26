@@ -1,0 +1,171 @@
+# ibksiz flmpl flmpr itwmod wmodts dmodts fwr taucfct
+# PHASTA Version 1.5 Input File
+#
+#  Basic format is
+#
+#    Key Phrase  :  Acceptable Value (integer, double, logical, or phrase
+#                                     list of integers, list of doubles )
+#
+#
+#SOLUTION CONTROL 
+#{                
+     Equation of State: Incompressible
+     Number of Timesteps: 50  #50 (150 to generate restarts...)
+     Time Step Size: 1e-4 #was 1e-2.. for steady. Smallest period is 0.005 0.001 # 3.26797385620915e-6  #  4.901960784e-6 # 9.803921569e-6=1/1700/60 Delt(1)
+     Turbulence Model: RANS #DDES  #No-Model  # No-Model iturb=0, RANS =-1  LES=1 #}
+     #Ramp Inflow: True 
+     #Mdot Ramp Inflow Start and Stop : 2 50  #1.526 1700 # amp. and freq. in case of syn. jets  mdot is actually V_{p,d}=0.01793679*V_jet_avg... 85=>1.526?
+     #Mdot Ramp Lower FC Start and Stop : 2.0 1.0 
+                                              # scale factor for the peak velocity (found on previous line). If 0.0, the peak value specified in the previous line is scaled by a sin(t) wave -> unsteady 
+                                              # Second factor is 0 for no jet (redundant with Ramp Inflow: False), 1 for all jets, 2 for every other, 3 for every third, 4 for every fourth, 6 for every sixth.     
+     #Number of Steps in a Cycle: 4       # nstepsincycle
+     #Number of Phases in a Cycle: 2      # nphasesincycle
+     #Number of Initial Cycles to Skip in Phase Average: 0 # ncycles_startphaseavg
+
+#}
+
+#MATERIAL PROPERTIES
+#{
+     Viscosity: 1.61e-5      # fills datmat (2 values REQUIRED if iLset=1)
+     Density: 1.0              # ditto
+     Thermal Conductivity: 27.6e-1  # ditto
+     Scalar Diffusivity: 27.6e-1    # fills scdiff(1:nsclrS)
+#}
+
+OUTPUT CONTROL
+{
+
+     Enable Coprocessing: 1
+     Number of Timesteps between Restarts: 1000   #replaces nout/ntout
+     #Number of Timesteps between Restarts: 100   #replaces nout/ntout
+     Current Run Number of Timesteps between Restarts: 10000
+     #Number of SyncIO Files: 2
+     Print Error Indicators: True
+     #Number of Error Smoothing Iterations: 10 # ierrsmooth
+     Print ybar: True
+     Enable ybar Weight: 1
+     ybar Weight: 0.01
+     #Print vorticity: True
+     #Print Wall Fluxes: True
+     #Number of Force Surfaces: 1
+     #Surface ID's for Force Calculation: 5
+     #Ranks per core: 4 # for varts only
+     #Cores per node: 2 # for varts only
+}
+
+#LINEAR SOLVER
+#
+     Solver Type: ACUSIM with P Projection
+     Number of GMRES Sweeps per Solve: 1      # replaces nGMRES
+     Number of Krylov Vectors per GMRES Sweep: 200           # replaces Kspace
+     Scalar 1 Solver Tolerance : 1.0e-4
+     Tolerance on Momentum Equations: 0.1                   # epstol(1)
+     Tolerance on ACUSIM Pressure Projection: 0.2           # prestol 
+     Number of Solves per Left-hand-side Formation: 1  #nupdat/LHSupd(1)
+     ACUSIM Verbosity Level               : 0   #iverbose
+     Minimum Number of Iterations per Nonlinear Iteration: 10  # minIters
+     Maximum Number of Iterations per Nonlinear Iteration: 200 # maxIter
+     #Number of Pressure Projection Vectors: 30  #nPresPrjs
+#}
+
+#DISCRETIZATION CONTROL
+#{
+     Time Integration Rule: First Order      # 1st Order sets rinf(1) -1
+#     Time Integration Rule: Second Order    # Second Order sets rinf next
+#     Time Integration Rho Infinity: 0.0     # rinf(1) Only used for 2nd order
+
+     #Tau Matrix: Matrix-Mallet               #itau=1
+     Tau Matrix: Diagonal-Shakib               #itau=1
+     Tau Time Constant: 1.                      #dtsfct
+     Include Viscous Correction in Stabilization: True    # if p=1 idiff=1
+                                                           # if p=2 idiff=2  
+     Lumped Mass Fraction on Left-hand-side: 0.0           # flmpl
+     Lumped Mass Fraction on Right-hand-side: 0.0          # flmpr
+     Tau C Scale Factor: 1.0                    # taucfct  best value depends
+     Number of Elements Per Block: 64       #ibksiz
+#}
+
+TURBULENCE MODELING PARAMETERS  
+{ 
+	Turbulence Wall Model Type: None  #itwmod=0 RANSorLES
+}
+
+#STEP SEQUENCE 
+#{
+      #Step Construction  :  0 1 0 1    10 11 10 11    0 1 0 1    10 11   
+      Step Construction  :  0 1 0 1    10 11 10 11
+      #Step Construction  :  0 1 0 1
+      #Step Construction  :  0 1    
+#}
+
+#outlet pressure for Duct
+     Duct Outlet ID: 0 #804                  # isetOutletID, give the surf ID which want to be set
+     Duct Uniform Outlet Pressure: 97000 # outPres1
+#initial condition for Duct
+     Set Initial Condition for Duct : 0 #isetInitial_Duct
+#inlet condition for Duct
+     Set Inlet Condition for Duct : 801  #isetInlet_Duct
+#blowing condition for Duct
+     Set Blowing Condition for Duct: 0 #isetBlowing_Duct
+
+     Fix Blowing Velocity for Duct: 1 #ifixBlowingVel_Duct
+     Set Fixed Blowing Velocity for Duct: 0.0 #BlowingVelDuct
+#blowing mdot ramp initial mdot percentage,
+#if it is 0.7, it means the mdot is 0.7% of the main mdot
+     Set Blowing Ramp Initial for Duct: 0.8 #BlowingIniMdotDuct
+#blowing mdot ramp final mode percentage
+     Set Blowing Ramp Final for Duct: 0.8 #BlowingFnlMdotDuct
+#blowing mdot ramp time steps
+     Set Blowing Ramp Steps for Duct: 1 #nBlowingStepsDuct
+
+#suction condition for Duct
+     Duct Set Suction Surface ID:             0 #601    #isetSuctionID_Duct - suction patch surface IDs usually 601
+     Duct Bottom Suction Normal Velocity:     0    #suctionVbottom
+     Duct Lower Side Suction Normal Velocity: 21.5188  #suctionVside_lower
+     Duct Upper Side Surface Normal Velocity: 21.5188  #suctionVside_upper
+     Duct Top Surface Normal Velocity:        0    #suctionVtop
+
+#blower condition for Duct
+     Duct Blower Surface ID:                  0   #802
+     Duct Blower Velocity:                    0.2    #m/s 
+     Duct Blower Temperature:                 304.6	#K
+     Duct Blower SA EV:                       8.05e-4 #m^2 /s      
+
+#eddy viscosity control
+     Override Eddy Viscosity:                0			#ctrlvari.isetEV_IC_BC
+     Eddy Viscosity Value for Override:      1.61e-6	#ctrlvar.evis_IC_BC
+
+
+#initial condition eddy viscosity ramp
+     Specify Initial Eddy Viscosity Ramp: 0
+     Initial Scalar 1 ramp start: -1
+     Initial Scalar 1 ramp end:   -0.8
+     Initial Scalar 1 low:        3.2e-5
+     Initial Scalar 1 high:       3.2e-3
+     
+     # If blower movement is implemented - can set as an initial condition - there should be boolian on whether or not to implement this. 
+     # Ii
+     Upper Blower Position Enable:  1
+     Upper Blower Position:         0.5
+     #Upper Blower Position Iges:    /users/fnewberry/PHASTA_Steering/SSE-Immersive-Sims/diffuser2D/model/ductParametricModel.iges
+     Upper Blower Position Iges:    /projects/VisComm/fnewberr/runs/model/ductParametricModel.iges                             
+
+     Number of Blower Surfaces: 2
+     Blower Enable:             1       1
+     Blower Surface ID:         802     803
+     Blower Mode:               1       1      #constant = 0, trapezoid = 1, sinusoid = 2, dynamic trapezoid = 3 (can likely do better)
+     Blower Cycle Period:       0.008      0.008 #0.0033333333
+     Blower Full On Period:     0.0025      0.0025 #0.0013333333
+     Blower Rise Time:          0.0015      0.0015 #0.0006666666
+     Blower Fall Time:          0.0015      0.0015 #0.0006666666
+     Blower Maximum u_normal:   0.15     4.5  #44.83 # 1.72 44.83  #m/s
+     Blower Minimum u_normal:   0.05     1.5  #5.556 # 10.0    #m/s
+     Blower Temperature:        305     305    #K
+     Blower Eddy Viscosity:     1.6e-4  1.6e-4 #m^2/s      # 1.6e-4  1.6e-4
+     Blower BL Thickness:       0.001   0.001
+     Blower BL Thickness (scalar):  0.0005  0.0005
+
+     Ramp Up Viscosity Near Outlet:          0        #irampViscOutlet 
+
+     Duct Geometry Type : 8 # iDuctgeometryType
+

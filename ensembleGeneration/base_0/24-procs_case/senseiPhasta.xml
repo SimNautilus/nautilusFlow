@@ -1,0 +1,21 @@
+ <!-- SENSEI ConfigurableAnalysis Configuration file.
+      set enabled="1" on analyses you wish to enable -->
+<sensei>
+
+  <!-- Catalyst Analyses -->
+  <analysis type="catalyst"
+    pipeline="slice"
+    array="pressure"
+    association="point"
+    image-filename="pressure-%ts.png"
+    image-width="1920"
+    image-height="1080"
+    slice-normal="0,0,1"
+    enabled="0" />
+
+  <analysis type="catalyst"
+    pipeline="pythonscript"
+    filename="/projects/VisComm/fnewberr/runs/blower_sensitivity/24-1-Chef/limit_cases/base_0/diffuser_pipeline.py"
+    enabled="1" />
+
+</sensei>
