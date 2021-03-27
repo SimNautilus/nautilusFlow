@@ -1,7 +1,7 @@
 from libensemble.tools.alloc_support import avail_worker_ids, sim_work
 #from libensemble.alloc_funcs.support import avail_worker_ids, sim_work
 
-def test_alloc(W, H, sim_specs, gen_specs, alloc_specs, persis_info): 
+def phasta_alloc(W, H, sim_specs, gen_specs, alloc_specs, persis_info): 
     """
     This allocation function gives (in order) entries in alloc_spec['x'] to
     idle workers. It is an example use case where no gen_func is used.
