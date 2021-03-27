@@ -10,7 +10,7 @@ libE_logger.set_level('DEBUG')
 
 # Import custom scripts
 from phasta_sim import phasta_evaluate as sim_f
-from allocation_func import test_alloc as alloc_f
+from allocation_func import phasta_alloc as alloc_f
 
 from datetime import datetime
 
