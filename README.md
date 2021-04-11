@@ -1,4 +1,4 @@
-# nautiliusFlow
+# nautilusFlow
 Tools to mitigate traditional partial differential equation (PDE) solver workflow inefficiences 
 
 This repository serves as a demonstration of an immersive (in situ) simulation software framework on a 2D agressive subsonic diffuser in the fluid solver PHASTA. 
