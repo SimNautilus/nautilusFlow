@@ -3,7 +3,7 @@
 Implement libEnsemble with PHASTA!
 
 "libEnsemble is a library to coordinate the concurrent evaluation of dynamic ensembles of calculations" 
-https://libensemble.readthedocs.io/en/master/
+https://github.com/Libensemble/libensemble
 
 In essence: If you seek to evaluate numerous PHASTA simulations on a HPC then this tool is for you. 
 
