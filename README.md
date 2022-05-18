@@ -3,6 +3,10 @@ Tools to mitigate traditional partial differential equation (PDE) solver workflo
 
 This repository serves as a demonstration of an immersive (in situ) simulation software framework on a 2D agressive subsonic diffuser in the fluid solver PHASTA. 
 
+Please cite our paper: Newberry, Felix, et al. "Software Tools to Enable Immersive Simulation." (2021).
+
+Paper link: https://engrxiv.org/preprint/view/1653/
+
 Our objective is to provide a template so that immersive simulation tools may be applied in other PDE solvers, and to other problems. 
 
 Immersive simulation tools
