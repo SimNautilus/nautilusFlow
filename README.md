@@ -34,3 +34,7 @@ In essence: if you seek to evaluate numerous PHASTA simulations on a HPC then th
 We show use of chaospy, an open source uncertainty quantification Python library to conduct a global sensitivity analysis. 
 
 [Chaospy Senstivity Analysis](sensitivityAnalysis)
+
+# Funding
+
+The work was supported by National Science Foundation grant 1740330 (SSE) and Department of Energy grant  DE-SC0021411 (FASTMath SciDAC).
